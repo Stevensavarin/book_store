@@ -1,7 +1,7 @@
 from decouple import config
 
 class Config:
-    SECRET_KEY = "8fX^Y2i0=|J"
+    SECRET_KEY = "your_secret_key
 
 class DevelepmentConfig(Config):
     DEBUG=True
